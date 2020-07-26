@@ -1,0 +1,50 @@
+.todo-form{
+  width: 100%;
+  background-color: var(--white);
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 8rem;
+}
+.todo-content{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+span{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  font-size: 2rem;
+  padding: 2rem;
+  color: var(--second);
+  background-color: var(--white);
+  width: 100%;
+  border: none;
+  word-break: break-word;
+}
+input::placeholder{
+  opacity: 0.5;
+  font-style: italic;
+  color: var(--second);
+}
+input:focus{
+  outline: none;
+}
+.create{
+  border-left: solid 0.5rem var(--second) ;
+  color: var(--white);
+  font-size: 2rem;
+  padding: 2rem;
+  cursor: pointer;
+  background-color: var(--prime);
+}
